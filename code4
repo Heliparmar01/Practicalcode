@@ -1,0 +1,15 @@
+#include <iostream>
+using namespace std;
+
+int  multiply(int x, int y) {
+    return x * y;
+}
+
+int main() {
+    int x, y;
+    cout << "Enter two numbers to multiply:" << endl;
+    cin >> x >> y;
+
+    cout << "The multiplication of the numbers : " <<  multiply(x, y) << endl;
+    return 0;
+}
