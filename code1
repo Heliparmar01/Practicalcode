@@ -1,0 +1,22 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    double num1, num2;
+    double sum, difference,  mult, division;
+
+    cout << "Input two   numbers:" << endl;
+    cin >> num1 >> num2;
+
+    sum = num1 + num2;
+    difference = num1 - num2;
+     mult = num1 * num2;
+    division = num1 / num2;
+
+    cout << "The sum is: " << sum << endl;
+    cout << "The difference is: " << difference << endl;
+    cout << "The multiplication is: " << product << endl;
+    cout << "The division is: " << division << endl;
+
+    return 0;
+}
